@@ -8,7 +8,7 @@ public class Solution {
         if (n == 0) {
             return false;
         }
-        
+        // a tree with n nodes has n-1 edges
         if (edges.length != n - 1) {
             return false;
         }
